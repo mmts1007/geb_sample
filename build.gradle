@@ -7,13 +7,13 @@ repositories {
 }
 
 dependencies {
-    compile     'org.slf4j:slf4j-nop:latest.release'
-    compile     'org.codehaus.groovy:groovy-all:latest.release'
-    testCompile 'org.gebish:geb-spock:latest.release'
-    testCompile 'org.spockframework:spock-core:latest.release'
-    testCompile 'com.athaydes:spock-reports:latest.release'
-    testCompile 'org.seleniumhq.selenium:selenium-htmlunit-driver:latest.release'
-    testRuntime 'org.seleniumhq.selenium:selenium-support:latest.release'
+    compile     'org.slf4j:slf4j-nop:1.7.16'
+    compile     'org.codehaus.groovy:groovy-all:2.4.5'
+    testCompile 'org.gebish:geb-spock:0.13.0'
+    testCompile 'org.spockframework:spock-core:1.0-groovy-2.4'
+    testCompile 'com.athaydes:spock-reports:1.2.9'
+    testCompile 'org.seleniumhq.selenium:selenium-htmlunit-driver:2.52.0'
+    testRuntime 'org.seleniumhq.selenium:selenium-support:2.52.0'
 }
 
 test {
